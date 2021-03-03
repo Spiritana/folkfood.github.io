@@ -1,0 +1,829 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.hamburger {
+    display: none;
+}
+header {
+    margin-top: 20px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_logo {
+    width: 115px;
+    height: 148px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  list-style-type: none;
+}
+.menu .menu_link {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    color: #5c320b;
+    text-decoration: none;
+}
+.menu .menu_link:hover {
+    color: #209418;
+}
+.menu .menu_item {
+    padding-right: 30px;
+}
+.menu .menu_item:last-child {
+    padding-right: 0;
+}
+.promo_header {
+    margin-top: 110px;
+    margin-bottom: 0;
+    font-family: Balsamiq Sans;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 90px;
+    color: #5c320b;
+}
+.promoimg {
+    background: url("../img/promo.jpg") center center/cover no-repeat;
+    min-height: 727px;
+    margin-top: 50px;
+}
+.welcome {
+    padding: 50px 0;
+}
+.welcome_top {
+    display: flex;
+    justify-content: space-between;
+}
+.dark_header {
+    font-family: Balsamiq Sans;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: left;
+    color: #523B60;
+}
+.topbird {
+    width: 142px;
+    height: 122px;
+    position: relative;
+    top: 119px;
+}
+.welcome_main {
+    margin-top: 40px;
+}
+.welcome_part1 {
+    display: flex;
+    justify-content: space-between;
+}
+.welcome_text {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 42px;
+    color: #5c320b;
+}
+.welcome_img1 {
+    width: 457px;
+    height: 434px;
+    margin-left: 60px;
+}
+.welcome_part2 {
+    margin-top: 30px;
+}
+.welcome_part2 img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.advantage_header {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    color: #523B60;
+}
+.advantage_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 60px;
+}
+.advantage_onewrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.advantage_circle {
+    width: 140px;
+    height: 140px;
+    border: 4px solid #D8C9C9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advantage_circle:hover {
+    border: 4px solid #8f7979;
+}
+.advantage_img {
+    width: 50%;
+}
+.advantage_img_big {
+    width: 60%;
+}
+.advantage_text {
+    margin-top: 33px;
+    width: 255px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #5c320b;
+}
+.advantage_more img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+.assortment {
+    background: url("../img/petrusha.jpg") center center/cover no-repeat;
+    min-height: 620px;
+    margin-top: 70px;
+}
+.pomidor {
+    text-align: center;
+    margin-top: 120px;
+}
+.assortment_text {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    line-height: 42px;
+    color: #5c320b;
+}
+.gallery {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-color: #FFEFDE;
+}
+.gallery_mainimg {
+    border-radius: 30px;
+}
+.gallery_maindescr {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: #5c320b;
+    margin-top: 30px;
+}
+.gallery_img {
+    border-radius: 30px;
+}
+.gallery_name {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
+    color: #5c320b;
+    text-align: center;
+    margin-top: 24px;
+}
+.gallery_descr {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: #5c320b;
+    margin-top: 13px;
+}
+.gallery_features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery_name, .gallery_descr {
+    max-width: 256px;
+}
+.gallery_feature {
+    margin-bottom: 40px;
+}
+.btn {
+    width: 380px;
+    height: 65px;
+    background: #F7444A;
+    border-radius: 30px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    margin-top: 30px;
+}
+.btn_white {
+    width: 380px;
+    height: 65px;
+    background: #fff;
+    border-radius: 30px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #493311;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    margin-top: 30px;
+}
+.instagram {
+    background-color: #6B9568;
+    min-height: 100px;
+    padding: 80px 0;
+}
+.white_header {
+    font-family: Balsamiq Sans;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+.review {
+    padding: 80px 0;
+    min-height: 100px;
+}
+.review_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.review_img {
+    width: 319px;
+}
+.bg {
+    margin-top: 40px;
+    width: 100%;
+    height: 500px;
+}
+.clothes {
+    padding-bottom: 80px;
+}
+.clothes_center {
+    text-align: center;
+}
+.clothes_about {
+    width: 60%;
+}
+.clothes_text {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    line-height: 42px;
+    color: #5c320b;
+    margin-bottom: 90px;
+    margin-top: 60px;
+}
+.container_clothes {
+    display: flex;
+    justify-content: space-between;
+}
+.clothes_img {
+    width: 380px;
+}
+.clothes_example {
+    margin-top: 65px;
+}
+.svarka {
+    background: url("../img/svarkabg.jpg") center center/cover no-repeat;
+    padding-top: 80px;
+}
+.svarka_main {
+    margin-top: 80px;
+}
+.svarka_plus {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 15px 0;
+}
+.oneplus {
+    margin-left: 25px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.svarka_text {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    line-height: 42px;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+.svarka_img {
+    width: 100%;
+    margin-top: 80px;
+}
+footer {
+    background-color: #FFEFDE;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_phone {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    color: #5c320b;
+    text-align: center;
+    text-decoration: none;
+}
+.footer_social {
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_social_item {
+    height: 45px;
+}
+.rights {
+    color: #5c320b;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+}
+.pageup {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+}
+.pageup img {
+    width: 100%;
+}
+.btn, .btn_white {
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #b51f24;
+}
+.btn_white:hover {
+    background-color: rgb(225, 224, 216);
+}
+.footer_phone:hover {
+    color: #209418;
+}
+.pageup:hover {
+    width: 50px;
+    height: 50px;
+}
+@media (max-width:1200px) {
+    .menu .menu_link {
+        font-size: 18px;
+    }
+    .promo_header {
+        font-size: 56px;
+    }
+    .menu .menu_item:last-child {
+        padding-right: 30px;
+    }
+    .dark_header, .white_header {
+        font-size: 40px;
+    }
+    .topbird {
+        top: 80px;
+    }
+    .advantage_wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .gallery_mainimg {
+        width: 100%;
+    }
+    .clothes_about {
+        width: 50%;
+    }
+    .clothes_example {
+        width: 100%;
+    }
+}
+@media (max-width:1065px) {
+    .advantage_onewrap:last-child {
+        margin-top: 20px;
+    }
+}
+@media (max-width:991px) {
+    .main_logo {
+        width: 94px;
+        height: 118px;
+    }
+    .menu .menu_link {
+        font-size: 14px;
+    }
+    .menu .menu_item {
+        padding-right: 20px;
+    }
+    .promo_header {
+        font-size: 46px;
+        line-height: 70px;
+    }
+    .dark_header, .white_header {
+        font-size: 34px;
+    }
+    .topbird {
+        top: 54px;
+    }
+    .welcome_img1 {
+        width: 367px;
+        height: 344px;
+        margin-left: 45px;
+    }
+    .welcome_text, .assortment_text, .clothes_text, .svarka_text {
+        font-size: 16px;
+        line-height: 34px;
+    }
+    .advantage_header {
+        font-size: 26px;
+    }
+    .advantage_wrap {
+        margin-top: 30px;
+    }
+    .advantage_onewrap, .advantage_onewrap:last-child  {
+        margin-top: 35px;
+    }
+    .advantage_text {
+        font-size: 16px;
+    }
+    .gallery_maindescr {
+        font-size: 26px;
+    }
+    .gallery_name {
+        font-size: 16px;
+    }
+    .gallery_descr {
+        font-size: 14px;
+    }
+    .gallery_name, .gallery_descr {
+        max-width: 290px;
+    }
+    .gallery_img {
+        display: block;
+        margin: 0 auto;
+    }
+    .gallery_feature {
+        margin-bottom: 30px;
+    }
+    .assortment {
+        min-height: 500px;
+    }
+    .btn, .btn_white {
+        font-size: 16px;
+        width: 280px;
+        height: 58px;
+    }
+    .bg {
+        height: auto;
+    }
+    .clothes_img {
+        width: 283px;
+    }
+    .clothes_text {
+        margin-top: 44px;
+        margin-bottom: 63px;
+    }
+    .svarka_main {
+        margin-top: 22px;
+    }
+    .oneplus {
+        font-size: 16px;
+    }
+    .rights {
+        font-size: 12px;
+    }
+}
+@media (max-width:767px) {
+    .menu {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        padding: 20px 15px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        transition: 0.6s all;
+    }
+    .menu .menu_item {
+        padding-right: 0;
+        border: none;
+        margin: 10px 0;
+    }
+    .menu .menu_link {
+        font-size: 20px;
+        color: #fff;
+    }
+    .menu_active {
+        left: 0;
+    }
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 19%;
+        transform: translateY(-50%);
+        width: 40px;
+        height: 12px;
+    }
+    .hamburger span {
+        display: block;
+        height: 2px;
+        width: 100%;
+        background-color: #5c320b;
+        margin-bottom: 2px;
+        transition: 0.5s all;
+    }
+    .hamburger_active span {
+        margin-bottom: -2px;
+    }
+    .hamburger_active span:nth-child(1) {
+        transform: translateY(3px) rotate(-45deg);
+    }
+    .hamburger_active span:nth-child(2) {
+        display: none;
+    }
+    .hamburger_active span:nth-child(3) {
+        transform: translateY(3px) rotate(45deg);
+    }
+    .promo_header {
+        position: relative;
+        z-index: -1000;
+    }
+    .menu .menu_item:last-child {
+        padding-right: 0;
+    }
+    .promo_header {
+        margin-top: 60px;
+        font-size: 34px;
+        line-height: 51px;
+    }
+    .promoimg {
+        margin-top: 25px;
+        min-height: 400px;
+    }
+    .menu .menu_link {
+        font-size: 18px;
+    }
+    .dark_header, .white_header {
+        font-size: 28px;
+    }
+    .topbird {
+        width: 100px;
+        height: 82px;
+    }
+    .welcome_img1 {
+        width: 267px;
+        height: 244px;
+        margin-left: 25px;
+    }
+    .welcome_text, .assortment_text, .clothes_text, .svarka_text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .advantage_header {
+        font-size: 20px;
+    }
+    .advantage_wrap {
+        margin-top: 0;
+    }
+    .advantage_onewrap, .advantage_onewrap:last-child {
+        margin-top: 15px;
+    }
+    .advantage_circle {
+        width: 125px;
+        height: 125px;
+    }
+    .advantage_text {
+        font-size: 14px;
+        margin-top: 12px;
+    }
+    .advantage_more img {
+        margin-top: 25px;
+        width: 60px;
+        height: 60px;
+    }
+    .assortment {
+        min-height: 400px;
+        margin-top: 20px;
+    }
+    .pomidor {
+        margin-top: 60px;
+    }
+    .gallery {
+        padding: 45px 0;
+    }
+    .gallery_maindescr {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .gallery_img {
+        width: 60%;
+    }
+    .gallery_name {
+        margin-top: 16px;
+    }
+    .gallery_descr {
+        margin-top: 7px;
+    }
+    .gallery_feature {
+        margin-bottom: 18px;
+    }
+    .instagram,.review {
+        padding: 55px 0;
+    }
+    .review_img {
+        width: 170px;
+    }
+    .btn, .btn_white {
+        font-size: 14px;
+        width: 250px;
+        height: 50px;
+    }
+    .clothes {
+        padding-bottom: 50px;
+    }
+    .clothes_img {
+        width: 243px;
+    }
+    .clothes_center {
+        margin: 0;
+    }
+    .clothes_text {
+        margin-top: 29px;
+        margin-bottom: 30px;
+    }
+    .clothes_example {
+        margin-top: 60px;
+    }
+    .svarka {
+        padding-top: 46px;
+    }
+    .svarka_plus {
+        margin-left: 77px;
+    }
+    .tick {
+        width: 30px;
+        height: 30px;
+    }
+    .svarka_text {
+        margin: 40px 0;
+    }
+    .svarka_img {
+        margin-top: 48px;
+    }
+    .footer_phone {
+        font-size: 14px;
+    }
+    .footer_social_item {
+        height: 35px;
+    }
+    .footer_social {
+        width: 133px;
+    }
+    footer {
+        padding-top: 5px;
+    }
+}
+@media (max-width:575px) {
+    .promo_header {
+        font-size: 18px;
+        margin-top: 28px;
+        line-height: 39px;
+    }
+    .btn, .btn_white {
+        font-size: 12px;
+        width: 214px;
+        height: 46px;
+    }
+    .main_logo {
+        width: 69px;
+        height: 88px;
+    }
+    .promoimg {
+        min-height: 330px;
+    }
+    .menu .menu_link {
+        font-size: 13px;
+    }
+    .dark_header, .white_header {
+        font-size: 20px;
+    }
+    .welcome_main {
+        margin-top: 13px;
+    }
+    .welcome_part1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .welcome_img1 {
+        margin-left: 0;
+        margin-top: 24px;
+    }
+    .topbird {
+        top: 20px;
+    }
+    .welcome_part2 img {
+        margin-top: 32px;
+        width: 100%;
+    }
+    .advantage_header {
+        font-size: 18px;
+        margin: 0;
+    }
+    .advantage_onewrap, .advantage_onewrap:last-child {
+        margin-top: 21px;
+    }
+    .advantage_circle {
+        width: 100px;
+        height: 100px;
+    }
+    .welcome {
+        padding-bottom: ;
+    }
+    .assortment {
+        min-height: 269px;
+        background: none;
+        background-color: #FFEFDE;
+    }
+    .pomidor {
+        margin-top: 50px;
+    }
+    .gallery {
+        padding-top: 15px;
+    }
+    .gallery_features {
+        display: block;
+    }
+    .gallery_feature {
+        margin-top: 18px;
+    }
+    .clothes_img {
+        display: none;
+    }
+    .clothes_about {
+        width: 100%;
+    }
+    .clothes_example {
+        margin-top: 48px;
+    }
+    .oneplus {
+        font-size: 14px;
+    }
+    .svarka_main {
+        margin-top: 10px;
+    }
+    .social {
+        margin-top: 10px;
+    }
+    .footer_phone {
+        font-size: 12px;
+    }
+    .footer_social {
+        width: 109px;
+    }
+    .footer_social_item {
+        height: 30px;
+    }
+    .rights {
+        font-size: 10px;
+    }
+    .review_img {
+        width: 130px;
+    }
+    .svarka_pluses {
+        margin-left: 20px;
+    }
+    .svarka_plus {
+        margin: 9px 0;
+    }
+}
